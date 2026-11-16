@@ -1,0 +1,82 @@
+name: bookmypoojapandit
+description: "BookMyPooja Partner — the app for Pandit Ji to manage bookings, devotees, e-pujas and profile."
+publish_to: 'none'
+
+# Must stay above the live Play build (versionCode 27 seen on device, Nov 2026).
+version: 2.0.0+29
+
+environment:
+  sdk: ^3.12.2
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_localizations:
+    sdk: flutter
+  cupertino_icons: ^1.0.8
+  flutter_riverpod: ^3.4.3
+  go_router: ^17.5.0
+  dio: ^5.11.1
+  shared_preferences: ^2.5.6
+  flutter_secure_storage: ^11.2.0
+  sqflite: ^2.4.6
+  path_provider: ^2.1.6
+  crypto: ^3.0.8
+  google_fonts: ^8.2.1
+  flutter_svg: ^2.3.3
+  cached_network_image: ^3.4.1
+  url_launcher: ^6.3.3
+  razorpay_flutter: ^1.4.7
+  intl: ^0.20.2
+  share_plus: ^13.3.1
+  image_picker: ^1.2.4
+  image_cropper: ^12.2.1
+  file_picker: ^13.3.3
+  geolocator: ^14.1.2
+  flutter_contacts: ^2.6.0
+  screenshot: ^3.0.0
+  video_player: ^2.14.1
+  qr_flutter: ^4.1.0
+  flutter_timezone: ^5.1.1
+  firebase_core: ^5.1.0
+  firebase_messaging: ^17.0.1
+  flutter_local_notifications: ^23.0.1
+  lucide_icons_flutter: ^4.0.3
+  uuid: ^4.6.0
+  permission_handler: ^13.0.2
+  country_picker: ^2.0.28
+  path: ^1.9.1
+  http_parser: ^4.1.2
+  gal: ^2.3.3
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^6.0.0
+  flutter_launcher_icons: ^0.14.4
+  flutter_native_splash: ^2.4.8
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/i18n/
+    - assets/images/
+    - assets/brand/
+
+flutter_launcher_icons:
+  android: "ic_launcher"
+  ios: true
+  image_path: "assets/brand/app_icon.png"
+  remove_alpha_ios: true
+  adaptive_icon_background: "#801419"
+  adaptive_icon_foreground: "assets/brand/app_icon_foreground.png"
+  min_sdk_android: 24
+
+flutter_native_splash:
+  color: "#F9F4EE"
+  image: assets/brand/splash_icon.png
+  android_12:
+    color: "#F9F4EE"
+    image: assets/brand/splash_icon.png
+  ios_content_mode: center
+  fullscreen: false

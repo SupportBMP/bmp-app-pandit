@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "308360965121",
+    "project_id": "bookmypooja-cf368",
+    "storage_bucket": "bookmypooja-cf368.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:308360965121:android:02e471be1a476caa96e400",
+        "android_client_info": {
+          "package_name": "com.bookmypoojapandit"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBBhn9jJYDxX5QtO3OeF39YLOnPjmv8ADs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,5 @@
+# Copy to key.properties (never commit it) when the release keystore is available.
+storePassword=CHANGE_ME
+keyPassword=CHANGE_ME
+keyAlias=bookmypooja-key-alias
+storeFile=../keystore/bookmypooja-release-key.keystore
